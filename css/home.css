@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F8FF;
+    min-height: 100vh;
+}
+header {
+    top: 0;
+    position: sticky;
+    background-color: #ADD8E6;
+    padding: 10px 0;
+    text-align: center
+}
+header img {
+  height: 90px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+.menu h1{
+    font-size: 28px;
+    color: white;
+}
+.menu a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+.menu a:hover {
+    font-weight: bold;
+}
+.int a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+.int a:hover {
+    font-weight: bold;
+}
+header .search-bar {
+    text-align: center;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: none;
+}
+/* --- */
+.inf h1, h2, h3, ul {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.inf img {
+    float: left;
+    display: flex;
+    block-size: 70px;
+    margin-bottom: 5px;
+}
+.servicos p{
+    font-size: 18px;
+    margin-top: 80px;
+    text-align: center;
+}
+.loc {
+    text-align: center;
+}
+.loc h2{
+    margin-top: 12vh;
+}
+.loc iframe {
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+span {
+    font-weight: bold;
+}
+main {
+    flex: 1;
+}
+footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-color: #ADD8E6;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
