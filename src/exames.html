@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/exames.css">
+    <link rel="stylesheet" href="/css/responsabilidade.css">
+    <title>Exames</title>
+</head>
+
+<body>
+    <header>
+        <img src="/images/logo.png" alt="Logo HC">
+        <nav>
+            <ul class="menu">
+                <li><a href="/src/home.html">Início</a></li>
+                <li><a href="/src/consultas.html">Consultas</a></li>
+                <li><a href="/src/exames.html">Exames</a></li>
+                <li><a href="/src/contato.html">Contato</a></li>
+                <li><a href="/src/faq.html">FAQ</a></li>
+                <li><a href="/src/sobre.html">Sobre</a></li>
+            </ul>
+            <div class="int"><li><a href="/src/integrantes.html">Integrantes</a></li></div>
+        </nav>
+        <input type="text" placeholder="Buscar..." class="search-bar" />
+    </header>
+    <main>
+        <h1>Verique seu Exame aqui!</h1>
+        <div class="field">
+            <label class="field__label" for="especialidade">Especialidade</label>
+            <select class="field__select" id="especialidade" name="especialidade" required>
+                <option value="" disabled selected>Selecione...</option>
+                <option value="cardiologia">Cardiologia</option>
+                <option value="dermatologia">Dermatologia</option>
+                <option value="ortopedia">Ortopedia</option>
+                <option value="pediatria">Pediatria</option>
+            </select>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar por exame..." class="search-bar">
+        </div>
+    </main>
+    <footer>
+        <a href="/src/integrantes.html">Integrantes</a>
+        <p>&copy; 2025 Hospital das Clínicas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
