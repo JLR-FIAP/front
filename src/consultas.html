@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/consultas.css">
+    <link rel="stylesheet" href="/css/responsabilidade.css">
+    <title>Consultas</title>
+</head>
+
+<body>
+    <header>
+        <img src="/images/logo.png" alt="Logo HC">
+        <nav>
+            <ul class="menu">
+                <li><a href="/src/home.html">Início</a></li>
+                <li><a href="/src/consultas.html">Consultas</a></li>
+                <li><a href="/src/exames.html">Exames</a></li>
+                <li><a href="/src/contato.html">Contato</a></li>
+                <li><a href="/src/faq.html">FAQ</a></li>
+                <li><a href="/src/sobre.html">Sobre</a></li>
+            </ul>
+            <div class="int"><li><a href="/src/integrantes.html">Integrantes</a></li></div>
+        </nav>
+        <input type="text" placeholder="Buscar..." class="search-bar" />
+    </header>
+
+    <main class="main">
+        <section class="lookup">
+            <h1 class="lookup__title">Confirme a data de sua consulta!</h1>
+            <div class="lookup__search">
+                <input type="text" placeholder="ID da consulta..." class="input--search" />
+            </div>
+        </section>
+        <section class="booking">
+            <h2 class="booking__title">Agende agora a sua consulta</h2>
+            <form class="booking__form" action="#" method="post">
+                <fieldset class="fieldset">
+                    <legend class="fieldset__legend">Dados Pessoais</legend>
+
+                    <div class="field">
+                        <label class="field__label" for="nome">Nome</label>
+                        <input class="field__input" type="text" id="nome" name="nome" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="email">E‑mail</label>
+                        <input class="field__input" type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="telefone">Telefone</label>
+                        <input class="field__input" type="tel" id="telefone" name="telefone"
+                            placeholder="(11) 98765‑4321" pattern="\(\d{2}\) \d{4,5}-\d{4}" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="data">Data</label>
+                        <input class="field__input" type="date" id="data" name="data" required>
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="especialidade">Especialidade</label>
+                        <select class="field__select" id="especialidade" name="especialidade" required>
+                            <option value="" disabled selected>Selecione...</option>
+                            <option value="cardiologia">Cardiologia</option>
+                            <option value="dermatologia">Dermatologia</option>
+                            <option value="ortopedia">Ortopedia</option>
+                            <option value="pediatria">Pediatria</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="obs">Observações</label>
+                        <textarea class="field__textarea" id="obs" name="observacoes" rows="3"
+                            placeholder="Informações adicionais"></textarea>
+                    </div>
+                </fieldset>
+                <button type="submit" class="btn--confirm">Confirmar Agendamento</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="/src/integrantes.html">Integrantes</a>
+        <p>&copy; 2025 Hospital das Clínicas. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
