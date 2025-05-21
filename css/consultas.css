@@ -144,7 +144,22 @@ header .search-bar {
 .btn--confirm:hover{
     background-color: #3a5e80;
 }
+.avatar {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    z-index: 1000;
+}
 
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 /* --- */
 main {
     flex:  1;
