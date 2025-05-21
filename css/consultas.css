@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F8FF;
+    min-height: 100vh;
+}
+header {
+    top: 0;
+    position: sticky;
+    background-color: #ADD8E6;
+    padding: 10px 0;
+    text-align: center
+}
+header img {
+  height: 90px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+.menu h1{
+    font-size: 28px;
+    color: white;
+}
+.menu a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+.menu a:hover {
+    font-weight: bold;
+}
+.int a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+.int a:hover {
+    font-weight: bold;
+}
+header .search-bar {
+    text-align: center;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: none;
+}
+.search-bar {
+    text-align: left;
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: none;
+}
+.pesquisa h1{
+    width: 80%;
+    font-size: 19px;
+    text-align: left;
+    margin-left: 10px;
+}
+.pesquisa input {
+    border-radius: 30px;
+    margin-left: 30px;
+}
+/* ---- */
+.lookup {
+    margin-top: 10px;
+    text-align: center;
+}
+.lookup input{
+    margin-bottom:10px;
+    text-align:center;
+}
+.lookup__title{
+    margin-bottom:1rem;
+    font-size:1.5rem;
+}
+.lookup__search{
+    display:flex;
+    justify-content:center;
+}
+.lookup__search input {
+    border-radius: 8px;
+    border-color: rgb(0, 0, 0, .1);
+}
+
+.booking__title{
+    margin-bottom:15px;
+    font-size:31px;
+    text-align:center;
+}
+.fieldset{
+    padding:5px 10px;
+    border-radius:10px;
+    background:#fff;
+    width: 90%;
+    margin: 0 auto;
+}
+.fieldset__legend{
+    padding:0 .5rem;
+    font-weight:bold;
+}
+/* --- campos --- */
+.field{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:1rem;
+}
+.field__label{
+    margin-bottom:.25rem;
+    font-weight:600;
+}
+.field_input,.fieldselect,.field_textarea{
+    padding:.5rem;
+    border:1px;
+    border-radius:.25rem;
+    background-color: #eeeded;
+}
+.field__textarea{
+    resize:vertical;
+}
+/* --- botão --- */
+.btn--confirm{
+    display:block;
+    margin: 20px auto;
+    width:70%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#4e98b1;
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.btn--confirm:hover{
+    background-color: #3a5e80;
+}
+
+/* --- */
+main {
+    flex:  1;
+}
+footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    background-color: #ADD8E6;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
