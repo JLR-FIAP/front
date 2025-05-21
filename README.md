@@ -1,5 +1,14 @@
 # Objetivo do projeto
-Nosso objetivo é garantir uma interface fácil e intutiva, visando garantir que o usuário tenha uma boa experiência sem precisar enche-lo de informações!
+Nosso objetivo é garantir uma interface fácil e intutiva, visando garantir que o usuário tenha uma boa experiência! Sem fornecer informações desnecessárias!
+
+
+# Tecnologia utilizada
+- HTML5
+- CSS3
+- JS
+
+A pasta src possui todos os arquivos HTML, A pasta css possui todos os arquivos CSS, e a pasta JS possui todos arquivos JS. Utilizamos JavaScript para fazer uma ***validação*** no login. O acesso só **se** dará se o ****Username**** e a ****Password**** forem == admin | admin.
+Além disso o JavaScript foi utilizado para fazer uma espécie de animação no FAQ, para que as informações apareçam apenas quando clicadas. Algo parecido com um acordeão.
 
 # Estrutura de pastas
 O projeto está organizado da seguinte forma:
@@ -16,9 +25,6 @@ O projeto está organizado da seguinte forma:
     │   └── logo.png
     └── README.md
 
-# Tecnologia utilizada
-Utilizamos JavaScript para fazer uma ***validação*** no login. O acesso só se dará se o **Username** e a **Password** forem == admin | admin.
-Além disso o JavaScript foi utilizado para fazer uma espécie de animação no FAQ, para que as informações apareçam apenas quando clicadas. Fazendo algo parecido com um acordeão. Ademais, html e css foram utilizados para estilização e afins do site.
 
 # Integrantes
 RM565290 - João Victor Veronesi
